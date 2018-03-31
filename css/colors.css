@@ -70,6 +70,11 @@ button:hover {
     -moz-transition: all 0.5s;
   }
 }
+@media only screen and (min-width: 414px) {
+  #stripe {
+    font-size: 0.8em;
+  }
+}
 @media only screen and (min-width: 768px) {
   #container {
     max-width: 400px;
