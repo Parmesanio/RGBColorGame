@@ -1,0 +1,87 @@
+body {
+  background: #232323;
+  font-family: "Verdana", "arial";
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main-primary-color: orange;
+}
+button:hover {
+  color: #fff;
+  background: steelblue;
+}
+@media only screen and (min-width: 0px) {
+  .square {
+    background: purple;
+    border-radius: 20px;
+    float: left;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    width: 30%;
+  }
+  #container {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  h1 {
+    background: steelblue;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: normal;
+    line-height: 1.1;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #colorDisplay {
+    font-size: 200%;
+  }
+  #message {
+    display: inline-block;
+    width: 20%;
+  }
+  #stripe {
+    background: #fff;
+    height: 30px;
+    font-size: 0.5em;
+    text-align: center;
+  }
+  .selected {
+    background: steelblue;
+    color: #fff;
+  }
+  button {
+    background: none;
+    border: none;
+    color: steelblue;
+    font-weight: 700;
+    font-size: inherit;
+    height: 100%;
+    letter-spacing: .5px;
+    outline: none;
+    text-transform: uppercase;
+    transition: all 0.350s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #container {
+    max-width: 400px;
+  }
+  h1 {
+    font-size: 1.5em;
+    line-height: 1.1;
+  }
+  #stripe {
+    font-size: 1em;
+  }
+  button {
+    letter-spacing: 1px;
+  }
+}
